@@ -21,7 +21,7 @@ export default function EventsClient() {
         {list.map((e) => (
           <li key={e.title}>
             <article className="flex flex-wrap items-center gap-4 rounded-[24px] border border-line bg-white p-5 sm:gap-6 sm:rounded-[28px] sm:p-6 transition duration-200 hover:-translate-y-1 hover:shadow-[0_18px_40px_rgba(10,26,47,0.14)]">
-              <div className={`font-display min-w-[76px] rounded-[18px] py-3 text-center font-extrabold leading-[1.1] text-ink ${e.accent} ${e.accent === "bg-[#f3f5f7]" ? "border border-line" : ""}`}><span className="block text-xs tracking-[0.08em]">[MON]</span><span className="text-[32px]">[DD]</span></div>
+              <div className={`font-display min-w-[76px] rounded-[18px] py-3 text-center font-extrabold leading-[1.1] text-ink ${e.accent} ${e.accent === "bg-[#f3f5f7]" ? "border border-line" : ""}`}><span className="block text-xs tracking-[0.08em]">DATE</span><span className="text-[25px]">TBD</span></div>
               <div className="min-w-0 flex-1 basis-[300px]">
                 <p className="text-[13px] font-bold uppercase tracking-[0.08em] text-muted">{e.type}</p>
                 <h2 className="font-display mt-1 text-2xl font-bold leading-tight tracking-[-0.02em]">{e.title}</h2>

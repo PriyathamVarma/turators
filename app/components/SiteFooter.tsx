@@ -15,7 +15,7 @@ export default function SiteFooter() {
           <Link href="/#join" className="py-2.5 transition hover:text-sun">Join</Link>
         </nav>
       </div>
-      <p className="mt-8 text-sm text-muted">© Turator. Made on the Bay of Bengal.</p>
+      <p className="mt-8 text-sm text-muted">© Turators. Made on the Bay of Bengal.</p>
     </footer>
   );
 }

@@ -12,7 +12,7 @@ export function Logo({ size = 34, className = "", bg, fg }: { size?: number; cla
   return (
     <span className={`font-display flex items-center gap-2.5 font-extrabold tracking-tight ${className}`}>
       <LogoMark size={size} bg={bg} fg={fg} />
-      turator
+      Turators
     </span>
   );
 }

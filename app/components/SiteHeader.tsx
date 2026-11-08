@@ -9,5 +9,5 @@ const links = [
 ];
 
 export default function SiteHeader({ current }: { current?: string }) {
-  return <HeaderNav links={links} current={current} logo={<Logo className="text-[26px] text-ink" bg="#0A1A2F" fg="#12B5CB" />} />;
+  return <HeaderNav links={links} current={current} logo={<Logo className="text-[27px] text-white" bg="#FFB321" fg="#0A1A2F" />} />;
 }

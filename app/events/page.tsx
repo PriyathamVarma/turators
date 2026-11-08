@@ -13,7 +13,7 @@ export default function EventsPage() {
     <main className="overflow-x-clip">
       <PageHero current="/events" eyebrow="Events and meetups" title="Meet in person," accent="build together.">
         <div className="mt-10 flex max-w-[640px] flex-wrap items-center gap-6 rounded-[28px] bg-navy p-6">
-          <div className="font-display min-w-[76px] rounded-[18px] bg-sun py-3 text-center font-extrabold leading-[1.1] text-ink"><span className="block text-xs tracking-[0.08em]">[MON]</span><span className="text-[32px]">[DD]</span></div>
+          <div className="font-display min-w-[76px] rounded-[18px] bg-sun py-3 text-center font-extrabold leading-[1.1] text-ink"><span className="block text-xs tracking-[0.08em]">DATE</span><span className="text-[25px]">TBD</span></div>
           <div className="min-w-0 flex-1 basis-[240px]">
             <p className="text-[13px] font-bold uppercase tracking-[0.08em] text-sea">Next up</p>
             <h2 className="font-display mt-1 text-2xl font-bold leading-tight tracking-[-0.02em]">Founding members meetup</h2>

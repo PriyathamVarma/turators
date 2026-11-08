@@ -6,9 +6,9 @@ const bricolage = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-br
 const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans" });
 
 export const metadata: Metadata = {
-  title: "Turator — Where India's tourism people build together",
+  title: "Turators — Where India's tourism people build together",
   description:
-    "Turator is a community for guides, stays, startups, students and tourism bodies building India's tourism ecosystem. Starting in Visakhapatnam.",
+    "Turators is a community for guides, stays, startups, students and tourism bodies building India's tourism ecosystem. Starting in Visakhapatnam.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

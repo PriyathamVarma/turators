@@ -37,7 +37,7 @@ const wrap = "mx-auto max-w-[1240px] px-[clamp(16px,4vw,40px)]";
 const card = "transition duration-200 hover:-translate-y-1 hover:shadow-[0_18px_40px_rgba(10,26,47,0.14)]";
 const arrowBtn = "inline-flex min-h-11 items-center gap-2 font-bold";
 
-export default function Home() {
+export function OriginalHome() {
   return (
     <main className="overflow-x-clip">
       {/* HERO */}
@@ -182,3 +182,5 @@ export default function Home() {
     </main>
   );
 }
+
+export { default } from "./RedesignedHome";

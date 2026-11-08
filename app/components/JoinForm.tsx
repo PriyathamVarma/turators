@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 const roles = ["Guide or operator", "Stay or cafe", "Startup or creator", "Student", "Government or body"];
+const recipient = "varma.v.travel@gmail.com";
 
 export default function JoinForm() {
   const [role, setRole] = useState(0);
@@ -13,6 +14,9 @@ export default function JoinForm() {
       className="flex min-w-0 flex-1 basis-[380px] flex-col gap-5 rounded-[24px] bg-white p-5 sm:rounded-[28px] sm:p-7"
       onSubmit={(e) => {
         e.preventDefault();
+        const subject = encodeURIComponent("Turators founding member request");
+        const body = encodeURIComponent(`New Turators community member request\n\nRole: ${roles[role]}\nEmail: ${(e.currentTarget.elements.namedItem("email") as HTMLInputElement).value}`);
+        window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
         setSent(true);
       }}
     >
@@ -52,7 +56,7 @@ export default function JoinForm() {
       </button>
       {sent && (
         <p role="status" className="m-0 text-[15px] font-medium">
-          Thank you. We will write to you with the date of the founding meetup.
+          Your email app is opening a message to {recipient}.
         </p>
       )}
     </form>
