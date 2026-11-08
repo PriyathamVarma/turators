@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   title: "Turators — Where India's tourism people build together",
   description:
     "Turators is a community for guides, stays, startups, students and tourism bodies building India's tourism ecosystem. Starting in Visakhapatnam.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
